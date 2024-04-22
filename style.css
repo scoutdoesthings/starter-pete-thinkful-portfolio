@@ -1,7 +1,7 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-box-sizing: border-box
+
 
 body {
   background-color: #eae2b7;
@@ -19,10 +19,11 @@ h3 {
 }
 
 /* Header */
-header, nav {
-  text-align: horizontal;
-  vertical-align: center;
-  flex-direction: row;
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
 }
 
 /* Containers */
