@@ -25,9 +25,9 @@ h1 {
 /* Header */
 header {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
+  flex: 1;
+    align-items: center;
+ justify-content: space-between;
 }
 
 /* Containers */
@@ -36,6 +36,18 @@ div {
   margin: auto;
   width: 600px;
 }
+
+.container {
+  display: flex;
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+  flex-direction: column; /* Stack items vertically */
+  background-color: #eae2b7;
+  margin: auto;
+  width: 600px;
+  padding: 20px;
+}
+
 
 article {
   padding: 50px 0;
@@ -49,6 +61,7 @@ article div {
 /* Paragraphs */
 p {
   line-height: 1.5;
+
 }
 
 /* Links */
@@ -62,11 +75,13 @@ a:hover {
 
 nav {
   display: flex;
-}
+  flex: 1;
+   }
 
 nav a {
+  display: flex;
   padding: 0 20px;
-}
+    }
 
 /* Images */
 img {
@@ -78,6 +93,20 @@ img {
 .image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
+}
+.img-container {
+  display: flex;
+  align-items: center; /* Vertically center content */
+  justify-content: center; /* Horizontally center content */
+}
+
+.img-container img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  border: 2px solid #003049;
+  border-radius: 50%;
+  margin-bottom: 20px; /* Add margin below the image */
 }
 
 /* Footer */
