@@ -51,17 +51,20 @@ div {
 
 article {
   padding: 50px 0;
-}
+} 
 
 article div {
-  text-align: center;
+text-align: center;
   width: 100%;
 }
 
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
 
+.left-align {
+  text-align: left;
 }
 
 /* Links */
