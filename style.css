@@ -17,8 +17,10 @@ h3 {
 }
 
 /* Header */
-header {
-  text-align: center;
+header, nav {
+  text-align: horizontal;
+  vertical-align: center;
+  flex-direction: row;
 }
 
 /* Containers */
