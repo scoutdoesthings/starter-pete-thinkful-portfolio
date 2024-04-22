@@ -18,6 +18,10 @@ h3 {
   text-align: center;
 }
 
+h1 {
+  margin: 0;
+}
+
 /* Header */
 header {
   display: flex;
@@ -54,6 +58,10 @@ a:link {
 
 a:hover {
   color: #f77f00;
+}
+
+nav {
+  display: flex;
 }
 
 nav a {
