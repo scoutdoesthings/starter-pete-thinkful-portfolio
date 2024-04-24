@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
 
-
 body {
   background-color: #eae2b7;
   color: #003049;
@@ -60,23 +59,33 @@ div {
   margin: auto;
   width: 600px;
   padding: 20px;
+  box-sizing: border-box;
 }
+
+.container2 {
+  display: flex;
+  flex: 33.3%;
+  flex-direction: row;
+  max-width: 100px;
+  box-sizing: border-box;
+  }
 
 .portfolio {
     display: flex;
+    flex: 33.3%;
+    max-width: 200px;
     flex-direction: column;
     /*align-items: flex-start; /* Vertically center content */
-    justify-content: space-evenly; /* Horizontally center content */
-    margin: auto;
-    width: 600px;
-    padding: 20px;
+   /* Horizontally center content */
+    box-sizing: border-box;
   }
 
 
-
+/*
 article {
   padding: 50px 0;
 } 
+*/
 
 /* commented out for now
 article div {
