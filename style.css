@@ -41,7 +41,7 @@ div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
-  text-align: ;
+  text-align: center;
 }
 
 .container {
@@ -71,6 +71,18 @@ p {
 }
 
 .left-align {
+  text-align: left;
+}
+
+ol {
+
+}
+
+ul {
+
+}
+
+li {
   text-align: left;
 }
 
