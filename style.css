@@ -115,18 +115,19 @@ img {
   height: auto;
 }
 
-.image-circle {
+/*.image-circle {
   border: 2px solid #003049;
   border-radius: 50%;
 }
-/* commented out for now
+*/
+
 .img-container {
   display: flex;
-  align-items: center; 
+  margin: auto
  justify-content: center; 
-} */
+}
 
-/* commented out for now
+ 
 .img-container img {
   width: 100%;
   max-width: 200px;
@@ -134,7 +135,7 @@ img {
   border: 2px solid #003049;
   border-radius: 50%;
   margin-bottom: 20px;
-} */
+}
 
 /* Footer */
 footer {
