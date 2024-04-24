@@ -11,17 +11,22 @@ body {
 }
 
 /* Headings */
-
-h2,
-h3 {
-  font-family: "Playfair Display", Times, serif;
-  text-align: center;
-}
-
 h1 {
   font-family: "Playfair Display", Times, serif;
   align-items: center;
   }
+
+  h2,
+{
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+h3,
+{
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
 
 /* Header */
 header {
@@ -36,6 +41,7 @@ div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
+  text-align: ;
 }
 
 .container {
