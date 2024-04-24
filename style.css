@@ -55,7 +55,6 @@ div {
   display: flex;
   /*align-items: flex-start; /* Vertically center content */
   justify-content: space-evenly; /* Horizontally center content */
-  flex-direction: row-reverse; 
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
@@ -67,10 +66,11 @@ article {
   padding: 50px 0;
 } 
 
+/* commented out for now
 article div {
 text-align: center;
  width: 100%;
-}
+} */
 
 /* Paragraphs */
 p {
