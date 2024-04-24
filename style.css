@@ -46,7 +46,8 @@ div {
 
 .container {
   display: flex;
-  align-items: center; /* Vertically center content */
+  flex: 50%;
+  align-items: flex-start; /* Vertically center content */
   justify-content: space-evenly; /* Horizontally center content */
   flex-direction: row-reverse; 
   background-color: #eae2b7;
@@ -123,8 +124,9 @@ img {
 
 .img-container {
   display: flex;
-  margin: auto
- justify-content: center; 
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: auto;
 }
 
  
