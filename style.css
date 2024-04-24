@@ -62,6 +62,18 @@ div {
   padding: 20px;
 }
 
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    /*align-items: flex-start; /* Vertically center content */
+    justify-content: space-evenly; /* Horizontally center content */
+    background-color: #eae2b7;
+    margin: auto;
+    width: 600px;
+    padding: 20px;
+  }
+
+
 
 article {
   padding: 50px 0;
