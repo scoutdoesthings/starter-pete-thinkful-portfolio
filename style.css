@@ -52,7 +52,7 @@ div {
 /* this is the container for pete's image and hi im pete thinkful */
 .container {
   display: flex;
-  justify-content: space-between; /* Horizontally center content */
+  justify-content: space-between; 
   align-items: center;
 }
 
@@ -159,9 +159,7 @@ img {
 */
 
 .img-container {
-  align-items: flex-end;
-  justify-content: right;
-  height: auto;
+flex: 0 0 auto;
 }
 
  
