@@ -103,7 +103,8 @@ p {
 
 .left-align {
   text-align: left;
-  padding-left: 20px;
+  justify: right;
+  padding-left: 50px;
   max-width: 600px;
 }
 
@@ -138,7 +139,7 @@ nav {
 nav a {
   display: flex;
   justify-content: center;
-  padding: 20px;
+  padding: 12px;
     }
 
 /* Images */
