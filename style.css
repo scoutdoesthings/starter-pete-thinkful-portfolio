@@ -39,7 +39,7 @@ header {
 /* Containers */
 main {
   background-color: #eae2b7;
-  margin: auto;
+  margin: 40px 0;
   width: 600px;
   text-align: center;
 }
@@ -54,7 +54,7 @@ div {
   display: flex;
   justify-content: space-between; 
   align-items: center;
-}
+ }
 
 .section-content {
   flex: 1;
@@ -88,11 +88,11 @@ div {
   }
 
 
-/*
+
 article {
-  padding: 50px 0;
+
 } 
-*/
+
 
 /* commented out for now
 article div {
@@ -103,7 +103,7 @@ text-align: center;
 /* Paragraphs */
 p {
   line-height: 1.5;
-}
+  }
 
 .descfontsize {
   font-size: 14px;
