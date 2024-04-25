@@ -61,6 +61,10 @@ div {
   max-width: 600px;
 }
 
+.heading {
+  text-align: center;
+}
+
 .section-content {
   display: flex;
   flex: 33.3%;
