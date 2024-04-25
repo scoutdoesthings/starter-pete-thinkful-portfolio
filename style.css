@@ -49,6 +49,7 @@ div {
   text-align: center;
 }
 
+/* this is the container for pete's image and hi im pete thinkful */
 .container {
   display: flex;
   flex: 50%;
