@@ -53,12 +53,8 @@ div {
 
 .container {
   display: flex;
-  flex: 50%;
-    /*align-items: flex-start; /* Vertically center content */
-  justify-content: space-evenly; /* Horizontally center content */
-  margin: auto;
-  box-sizing: border-box;
-  max-width: 600px;
+  justify-content: space-between; /* Horizontally center content */
+  align-items: center;
 }
 
 .heading {
