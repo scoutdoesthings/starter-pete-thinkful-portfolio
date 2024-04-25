@@ -59,7 +59,7 @@ div {
   max-width: 600px;
 }
 
-
+/*THIS IS THE CONTAINER FOR THE PICTURES IN PORTFOLIO */
 .container2 {
   display: flex;
   flex: 33.3%;
