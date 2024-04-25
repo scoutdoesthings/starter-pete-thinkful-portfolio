@@ -28,6 +28,8 @@ h3
   text-align: center;
 }
 
+
+
 /* Header */
 header {
   display: flex;
@@ -59,7 +61,7 @@ div {
   max-width: 600px;
 }
 
-.container2 {
+.section-content {
   display: flex;
   flex: 33.3%;
   justify-content: space-evenly;
