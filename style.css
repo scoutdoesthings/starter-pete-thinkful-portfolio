@@ -39,7 +39,7 @@ header {
 /* Containers */
 main {
   background-color: #eae2b7;
-  margin: 40px 0;
+  margin: auto;
   width: 600px;
   text-align: center;
 }
