@@ -52,13 +52,11 @@ div {
 .container {
   display: flex;
   flex: 50%;
-  /*align-items: flex-start; /* Vertically center content */
+    /*align-items: flex-start; /* Vertically center content */
   justify-content: space-evenly; /* Horizontally center content */
-  background-color: #eae2b7;
   margin: auto;
-  width: 600px;
-  padding: 20px;
   box-sizing: border-box;
+  max-width: 600px;
 }
 
 .container2 {
@@ -100,6 +98,8 @@ p {
 
 .left-align {
   text-align: left;
+  padding-left: 20px;
+  justify-content: center;
 }
 
 ol {
