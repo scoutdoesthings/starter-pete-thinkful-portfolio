@@ -15,14 +15,14 @@ h1 {
   align-items: center;
   }
 
-  h2,
+  h2
 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
 }
 
 /* THIS NEEDS TO MOVE TO THE RIGHT OF THE SCREEN -HI IM PETE THINKFUL */
-h3,
+h3
 {
   font-family: "Playfair Display", Times, serif;
   text-align: center;
@@ -99,7 +99,7 @@ p {
 .left-align {
   text-align: left;
   padding-left: 20px;
-  justify-content: center;
+  max-width: 600px;
 }
 
 ol {
