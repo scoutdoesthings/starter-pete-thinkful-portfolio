@@ -45,13 +45,13 @@ main {
 }
 
 div {
-  background-color: #eae2b7;
   margin: auto;
   text-align: center;
 }
 
 .container {
   display: flex;
+  flex: 50%;
   /*align-items: flex-start; /* Vertically center content */
   justify-content: space-evenly; /* Horizontally center content */
   background-color: #eae2b7;
@@ -64,8 +64,8 @@ div {
 .container2 {
   display: flex;
   flex: 33.3%;
+  justify-content: space-evenly;
   flex-direction: row;
-  max-width: 100px;
   box-sizing: border-box;
   }
 
@@ -73,6 +73,7 @@ div {
     display: flex;
     flex: 33.3%;
     max-width: 200px;
+    padding: 10px;
     flex-direction: column;
     /*align-items: flex-start; /* Vertically center content */
    /* Horizontally center content */
